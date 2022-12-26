@@ -1,0 +1,749 @@
+@font-face {
+    font-family: myFont;
+    src: url(flip.normal.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+
+* {
+    margin: 0;
+}
+
+
+.header {
+    width: 100%;
+
+
+
+}
+
+.head {
+
+    display: flex;
+    background-color: rgb(6, 117, 213);
+    height: 50px;
+
+}
+
+.flip-head img {
+
+    padding-left: 135px;
+    font-size: 100px;
+    height: 26px;
+    width: 99px;
+    padding-top: 12px;
+}
+
+.srch-inp input {
+
+
+    width: 470px;
+    height: 35px;
+    padding-top: 1px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 7px;
+    border: transparent;
+    outline: none;
+    border: aliceblue;
+
+
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+
+    list-style: none;
+
+}
+
+.log li button {
+    margin-left: 24px;
+    height: 24px;
+    width: 110px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border: 0;
+
+    border-radius: 2px;
+}
+
+.log li button:hover {
+    color: rgb(6, 117, 213);
+    background-color: aliceblue;
+}
+
+.log li {
+    margin-top: 10px;
+    margin: 11px;
+
+    color: aliceblue;
+    font-style: initial;
+
+}
+
+
+.gadgets {
+    display: flex;
+    margin: 0 120px;
+
+
+}
+
+.items-2 {
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+    height: 112px;
+
+}
+
+.img-1 {
+    height: 90px;
+    width: 120px;
+    margin-left: 90px;
+    margin: 0 auto;
+}
+
+.offers h3 {
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    padding-left: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.offers h3:hover {
+    color: rgb(6, 117, 213);
+    ;
+}
+
+.offer {
+    width: 100%;
+}
+
+.offer img {
+    height: 60px;
+    width: 59px;
+    margin: 13px 34px
+}
+
+
+
+.Mobile img {
+    height: 60px;
+    width: 59px;
+    margin: 13px 34px
+}
+
+
+.electronic img {
+    height: 60px;
+    width: 59px;
+    margin: 13px 34px
+}
+
+
+.tv img {
+    height: 60px;
+    width: 59px;
+    margin: 13px 34px
+}
+
+
+
+.fasion img {
+    height: 60px;
+    width: 59px;
+    margin: 13px 34px
+}
+
+
+
+.beauty img {
+    height: 60px;
+    width: 59px;
+    margin: 13px 34px
+}
+
+
+
+.home img {
+    height: 60px;
+    width: 59px;
+    margin: 13px 34px
+}
+
+.flights img {
+    height: 60px;
+    width: 59px;
+    margin: 13px 34px
+}
+
+
+.grocery img {
+    height: 60px;
+    width: 59px;
+    margin: 13px 34px
+}
+
+
+
+.add-img {
+    width: 100%;
+    height: 217px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(215, 208, 208), rgb(255, 255, 255));
+}
+
+.add-img img {
+    margin-left: 102px;
+    height: 199px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.products {
+    display: flex;
+    margin: 0px 91px 1px 111px;
+    border-radius: 5px;
+    background-color: rgb(238, 235, 235);
+  
+
+}
+
+
+
+
+.items {
+    height: 279px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 0 auto;
+
+
+}
+
+.discriptions h3 {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.discriptions h4 {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(65, 150, 71);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.discriptions h5 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    opacity: 0.6;
+}
+
+.Tv {
+
+
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.Tv img:hover {
+
+    transform: scale(1.1);
+
+}
+
+.Tv img {
+    transition: .3s;
+    height: 138px;
+    width: 189px;
+    margin: 4px;
+    border-radius: 2px;
+    /* object-fit: cover; */
+    margin-top: 25px;
+
+}
+
+.Apple {
+    width: 100%;
+    overflow: hidden;
+    /* margin: 10px; */
+}
+
+.Apple img:hover {
+    transform: scale(1.1);
+}
+
+.Apple img {
+
+
+    transition: .3s;
+    height: 149px;
+    border-radius: 2px;
+    width: 119px;
+    margin: 19px;
+    margin-left: 42px;
+
+
+}
+
+.toys {
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.toys img:hover {
+    transform: scale(1.1);
+}
+
+.toys img {
+    transition: .3s;
+    height: 149px;
+    width: 153px;
+    margin: 23px;
+}
+
+.headphone {
+
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.headphone img:hover {
+    transform: scale(1.1);
+}
+
+.headphone img {
+
+    transition: .3s;
+    height: 149px;
+    width: 153px;
+    border-radius: 2px;
+    margin: 23px;
+
+
+
+
+}
+
+.shoes {
+
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.shoes img:hover {
+    transform: scale(1.1);
+
+}
+
+.shoes img {
+    transition: .3s;
+    height: 149px;
+    border-radius: 2px;
+    width: 153px;
+    margin: 23px;
+}
+
+
+
+
+
+
+
+
+.offer-cards {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(237, 243, 243);
+}
+
+.big-billion img {
+    height: 241px;
+    width: 435px;
+    border-radius: 10px;
+    margin-left: 26px;
+}
+
+.big-savings img {
+    height: 241px;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 435px;
+}
+
+.gift-card img {
+    height: 241px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 435px;
+}
+
+.offer-cards-2 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(237, 243, 243);
+}
+
+.big-savings-2 {
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.big-savings-2 img {
+
+    height: 241px;
+    margin-top: 10px;
+    width: 435px;
+    border-radius: 10px;
+    margin-left: 26px;
+}
+
+.deals-smartphones img {
+    height: 241px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 435px;
+}
+
+.upcoming img {
+    height: 241px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 435px;
+}
+
+.purchase-row {
+    display: flex;
+    width: 100%;
+    height: 303px;
+}
+
+.purchase-clm {
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    height: 258px;
+
+
+
+
+}
+
+.purch-rate h3 {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.purch-rate h4 {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(65, 150, 71);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.purch-rate h5 {
+    text-align: center;
+    padding-top: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+
+    opacity: 0.6;
+}
+
+
+.img {
+    height: 200px;
+    width: 200px;
+    margin-left: 90px;
+    margin: 0 auto;
+
+
+}
+
+.sabse {
+
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.sabse img:hover {
+    transform: scale(1.1);
+
+}
+
+.sabse img {
+    transition: .3s;
+    height: 149px;
+    border-radius: 2px;
+    width: 153px;
+    margin: 23px;
+
+}
+
+.uspa-shirts {
+    width: 100%;
+    overflow: hidden;
+
+
+}
+
+.uspa-shirts img:hover {
+    transform: scale(1.1);
+}
+
+.uspa-shirts img {
+    transition: .3s;
+    height: 149px;
+    border-radius: 2px;
+    width: 153px;
+    margin: 23px;
+}
+
+.lavis-bags {
+
+
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+
+
+}
+
+.lavis-bags img:hover {
+    transform: scale(1.1);
+}
+
+.lavis-bags img {
+    transition: .3s;
+    height: 149px;
+    width: 153px;
+    border-radius: 2px;
+    margin: 23px;
+
+}
+
+.nike {
+    width: 100%;
+    overflow: hidden;
+
+
+}
+
+.nike img:hover {
+    transform: scale(1.1);
+}
+
+.nike img {
+    transition: .3s;
+    height: 149px;
+    width: 153px;
+    border-radius: 2px;
+    margin: 23px;
+
+
+}
+
+.rymoond-shirt {
+    width: 100%;
+    overflow: hidden;
+}
+
+.rymoond-shirt img:hover {
+    transform: scale(1.1);
+}
+
+.rymoond-shirt img {
+    transition: .3s;
+    height: 149px;
+    width: 153px;
+    border-radius: 2px;
+    margin: 23px;
+}
+
+.offer-3 {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.poco-m2 img {
+    height: 241px;
+    margin-left: 31px;
+    border-radius: 10px;
+    width: 435px;
+}
+
+.loot img {
+
+    height: 241px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 435px;
+}
+
+.top-phones img {
+    height: 241px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 435px;
+}
+
+.Add-low {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-color: rgb(235, 233, 233);
+}
+
+.row-add {
+    display: flex;
+    margin: 10px;
+    display: flex;
+    margin: 22px 76px;
+}
+
+.col-add {
+    height: 217px;
+    width: 385px;
+    background-color: aliceblue;
+    border-radius: 7px;
+    position: static;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.boat img:hover {
+    transform: scale(1.03);
+}
+
+.boat img {
+    transition: .3s;
+    height: 188px;
+    width: 100%;
+    border-radius: 9px;
+
+}
+
+.add-dis {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #172337;
+    display: flex;
+}
+
+.foot-head {
+
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    margin: 0 53px;
+
+
+}
+
+.about {
+
+    color: #848484;
+    padding-top: 30px;
+    font-size: 10px;
+    margin-left: 40px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cnt {
+    margin-top: 13px;
+}
+
+.cnt p {
+    color: #ffff;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+    font-size: 12px;
+
+
+}
+
+.help {
+    color: #848484;
+    padding-top: 30px;
+    font-size: 10px;
+    font-weight: 200;
+    margin-left: 90px;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.policy {
+    color: #848484;
+    padding-top: 30px;
+    font-size: 10px;
+    margin-left: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social {
+    color: #848484;
+    font-weight: 100;
+    padding-top: 30px;
+    font-size: 10px;
+    margin-left: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mail {
+    color: #848484;
+    font-weight: 100;
+    padding-top: 30px;
+    font-size: 14px;
+    margin-left: 190px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.reg-office {
+    color: #848484;
+    font-weight: 100;
+    padding-top: 30px;
+    font-size: 14px;
+    margin-left: 90px;
+    font-family: 'Poppins', sans-serif;
+}
